@@ -1,0 +1,23 @@
+{
+    "name": "phprush/demo",
+    "description": "phprush demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jianyong",
+            "email": "jianyong.me@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+          "PhpRush\\Demo\\": [
+            "src/"
+          ]
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
